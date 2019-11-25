@@ -1,0 +1,53 @@
+
+COUNTPOSITIVE....
+
+1. El fallo de este test es que cuenta el número 0 como un número positivo cuando en realidad no lo es. Proporciono código countpositivetest.
+
+2. Es imposible ya que en este código siempre se ejecuta la condición del if.
+
+3. Es imposible ya que el valor de la variable x siempre va a ser erróneo.
+
+4. Por ejemplo: [1,2,-3,5], se espera 3 y recibes 3.
+
+5. El caso anterior es erróneo en cuanto uno de los números sea un 0.
+
+
+LASTZERO....
+
+1. El fallo de este programa es que devuelve la posición del primer 0 en el array, no del último, luego si hay varios provocará disfunción.
+
+2. Cualquier array que no contenga ningún 0, no ejecuta el código erróneo, por ejemplo [1,2,3].
+
+3.Es imposible ya que el valor de la variable i será erróneo.
+
+4. Por ejemplo [1,2,0,5] esperas un 2 y recibes un 2.
+
+5. Si cambias el 5 por otro 0 esperarías un 3 pero recibes un 2, luego se ha generado una disfunción.
+
+
+FINDLAST....
+
+1. El problema de este programa es que no busca en la posición 0 del array, luego si el número que buscas está solo en esa posición dará error.
+
+2. Es imposible ya que siempre se ejecutará la condición del for.
+
+3. Es imposible ya que el valor de la variable i nunca llegará a 0.
+
+4. Por ejemplo buscas un 1 en [1,3,4,1], esperas un 3 y recibes un 3.
+
+5. Si cambias el último 1 por cualquier otro número esperas un 0 y recibes un -1, ya que al solo estar en la posición 0 no lo encuentra.
+
+
+ODDORPOS....
+
+1. El problema de este programa es que no cuenta los números impares cuando estos son negativos.
+
+2. Es imposible ya que siempre se ejecuta la condición del if.
+
+3. Es imposible ya que el valor de x[i] será erróneo.
+
+4. Por ejemplo: [-2,1,3,-4], esperas un 2 y recibes un 2.
+
+5. Si cambias el -4 por un -3, esperas un 3 y recibes un 2, ya que al ser negativo y devolver resto -1 no lo cuenta como un impar.
+
+
